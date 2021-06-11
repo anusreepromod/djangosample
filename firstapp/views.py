@@ -8,3 +8,6 @@ def hello(request):
 
 def htm(request):
     return render(request,'sample.html')
+
+def sample(request):
+    return render(request, 'sample1.html')
